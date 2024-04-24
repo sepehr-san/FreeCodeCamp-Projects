@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+
+.back-color {
+  background-color: #57588ee6;
+}
+
+body {
+  background-image: url(https://images.ctfassets.net/3s5io6mnxfqz/3ArvvwpxV6BmcdTcKstDj8/241ed7cf0c8dfd40c66424084a99a69b/corporation_vs_company.jpeg?w=1920);
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
+header h1, header p {
+  margin-bottom: 10px ;
+
+}
+
+header {
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+
+form {
+  background-color: rgba(41, 39, 68, 0.8);
+  width: 70%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 2.5rem;
+  border-radius: 3px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+label, select {
+  width: 100%;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+
+#personal-input input {
+  width: 100%;
+  height: 35px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+#title {
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  text-align: center;
+}
+
+label, input {
+  display: block;
+  
+}
+
+.inline {
+  display: inline;
+  margin-right: 10px;
+}
+
+input {
+  border: none;
+  padding: 10px;
+  color: black;
+}
+
+input[type="submit"] {
+  background-color: rgb(100, 183, 100);
+  margin: 10px auto 0px;
+  width: 100%;
+  height: 40px;
+  border-radius: 3px;
+  color: white;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+select {
+  color:rgb(0, 0, 0);
+  text-indent: 10px;
+  height: 35px;
+  
+}
+
+textarea {
+  padding: 10px;
+  width: 100%;
+  color: black;
+}
+
+.etc {
+  font-size: 0.7rem;
+}
+
+@media (max-width: 400px) {
+
+form {
+  width: 100%;
+}
+
+#title {
+  font-size: 36px;
+}
+
+#description {
+  font-size: 15px;
+  width: 80%;
+  margin-inline: auto;
+  margin-top: 20px;
+}
+
+}
