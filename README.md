@@ -1,2 +1,2 @@
 # FreeCodeCamp-Projects
-I Put "FreeCodeCamp Projects" here.
+I put "FreeCodeCamp Projects" here.
