@@ -10,6 +10,10 @@ body {
   line-height: 1.4;
 }
 
+main {
+  width: 100vw;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -180,7 +184,7 @@ footer p {
 
 @media only screen and (max-width: 375px) {
   html {
-    font-size: 12px;
+    font-size: 10px;
   }
   #navbar {
     justify-content: center;
@@ -190,5 +194,11 @@ footer p {
   }
   #profile-links .contact-wrapper a {
     margin-top: 0.5rem;
+  }
+  #navbar .link-container {
+    margin-right: 0rem;
+  }
+  .project-container a {
+    width: calc(100% - 2rem);
   }
 }
