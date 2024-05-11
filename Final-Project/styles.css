@@ -90,7 +90,7 @@ a {
   max-width: 1280px;
   margin-top: 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 2rem;
   padding-bottom: 4rem;
 }
@@ -109,13 +109,14 @@ a {
   font-size: 1.2rem;
   padding: .5rem 0;
 }
-.project-container a p code {
+.project-container a p .code {
+  display: inline-block;
   color: var(--gray);
   margin-inline: 0.3rem;
   transition: color 600ms;
   font-size: 1.3rem;
 }
-.project-container a:hover code {
+.project-container a:hover .code {
   color: orange;
 }
 #projects > a {
@@ -180,6 +181,9 @@ footer p {
   html {
     font-size: 12px;
   }
+  .project-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
 
 @media only screen and (max-width: 375px) {
@@ -198,7 +202,7 @@ footer p {
   #navbar .link-container {
     margin-right: 0rem;
   }
-  .project-container a {
-    width: calc(100% - 2rem);
+  .project-container {
+    grid-template-columns: 1fr;
   }
 }
