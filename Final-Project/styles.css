@@ -136,6 +136,7 @@
     color: var(--white);
     padding-inline: 1rem;
     padding-bottom: 15rem;
+    height: calc(100vh - 10rem);
   }
   #profile-links .title {
     padding-top: 10rem;
